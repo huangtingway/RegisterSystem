@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+		xmlns:tools = "http://schemas.android.com/tools"
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		xmlns:app = "http://schemas.android.com/apk/res-auto"
+		tools:context = ".CustomFrag"
+		android:orientation = "vertical"
+		android:gravity = "center"
+		android:background = "#E8EEF1"
+		>
+	<com.google.android.material.card.MaterialCardView
+			android:id = "@+id/roomcard"
+			android:layout_width = "match_parent"
+			android:layout_height = "0dp"
+			android:layout_weight = "4"
+			android:layout_marginBottom = "5dp"
+			android:layout_marginHorizontal = "15dp"
+			app:cardBackgroundColor = "#FFFFFF"
+			style = "@style/Widget.Material3.CardView.Filled"
+			>
+		<LinearLayout
+				android:layout_width = "match_parent"
+				android:gravity = "center"
+				android:orientation = "horizontal"
+				android:layout_height = "match_parent"
+				>
+			<ImageButton
+					android:id = "@+id/leftbtn"
+					android:layout_width = "wrap_content"
+					android:layout_height = "match_parent"
+					android:backgroundTint = "#ffffff"
+					android:src = "@drawable/ic_arrow_left"/>
+			<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_weight = "1"
+					android:layout_height = "wrap_content"
+					android:gravity = "center_horizontal"
+					android:orientation = "vertical">
+				<TextView
+						android:id = "@+id/fragmentcustom_room"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "診間1"
+						android:textSize = "40sp"
+						android:gravity = "center"/>
+				<TextView
+						android:id = "@+id/fragmentcustom_category"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "XXX科"
+						android:textSize = "20sp"
+						android:gravity = "center"
+						/>
+			</LinearLayout>
+			<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_weight = "1"
+					android:layout_height = "wrap_content"
+					android:orientation = "vertical"
+					android:gravity = "center_horizontal"
+					>
+				<TextView
+						android:id = "@+id/fragmentcustom_doctorname"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "醫師:XXX"
+						android:textSize = "15sp"
+						android:gravity = "center"
+						android:layout_marginTop = "5dp"
+						/>
+				<TextView
+						android:id = "@+id/fragmentcustom_announcement"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "公告:XXX"
+						android:textSize = "15sp"
+						android:gravity = "center"
+						android:layout_marginTop = "8dp"
+						/>
+			</LinearLayout>
+			<ImageButton
+					android:id = "@+id/rightbtn"
+					android:layout_width = "wrap_content"
+					android:layout_height = "match_parent"
+					android:backgroundTint = "#ffffff"
+					android:src = "@drawable/ic_arrow_right"/>
+		</LinearLayout>
+	</com.google.android.material.card.MaterialCardView>
+	<com.google.android.material.card.MaterialCardView
+			android:id = "@+id/numcard"
+			android:layout_width = "match_parent"
+			android:layout_height = "0dp"
+			android:layout_weight = "5"
+			android:layout_marginVertical = "10dp"
+			android:layout_marginHorizontal = "15dp"
+			app:cardBackgroundColor = "#FFFFFF"
+			style = "@style/Widget.Material3.CardView.Filled"
+			>
+		<LinearLayout
+				android:layout_width = "match_parent"
+				android:gravity = "center_horizontal"
+				android:orientation = "horizontal"
+				android:layout_marginHorizontal = "20dp"
+				android:layout_height = "match_parent"
+				>
+			<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_weight = "1"
+					android:layout_height = "wrap_content"
+					android:gravity = "center_horizontal"
+					android:orientation = "vertical"
+					android:layout_marginVertical = "10dp">
+				<TextView
+						android:id = "@+id/fragmentcustom_number"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "00"
+						android:textSize = "40sp"
+						android:gravity = "center"
+						/>
+				<TextView
+						android:id = "@+id/fragmentcustom_nownumber"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "現在號碼"
+						android:textSize = "20sp"
+						android:gravity = "center"
+						/>
+			</LinearLayout>
+			<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_weight = "1"
+					android:gravity = "center_vertical"
+					android:layout_height = "match_parent"
+					android:orientation = "vertical"
+					>
+				<TextView
+						android:id = "@+id/fragmentcustom_patientname"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "姓名:XXX"
+						android:textSize = "15sp"
+						android:gravity = "center"
+						android:layout_marginVertical = "2dp"
+						/>
+				<TextView
+						android:id = "@+id/fragmentcustom_patientsex"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "性別:X"
+						android:textSize = "15sp"
+						android:gravity = "center"
+						android:layout_marginVertical = "2dp"
+						/>
+				<TextView
+						android:id = "@+id/fragmentcustom_patientbirthday"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "出生日期:YYYY/MM/DD"
+						android:textSize = "15sp"
+						android:gravity = "center"
+						android:layout_marginVertical = "2dp"
+						/>
+				<TextView
+						android:id = "@+id/fragmentcustom_patientid"
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "身分證:XX"
+						android:textSize = "15sp"
+						android:gravity = "center"
+						android:layout_marginVertical = "2dp"
+						/>
+			</LinearLayout>
+		</LinearLayout>
+	</com.google.android.material.card.MaterialCardView>
+	<com.google.android.material.card.MaterialCardView
+			android:layout_width = "match_parent"
+			android:layout_height = "0dp"
+			android:layout_weight = "20"
+			android:layout_marginTop = "5dp"
+			android:layout_marginHorizontal = "15dp"
+			app:cardBackgroundColor = "#FFFFFF"
+			style = "@style/Widget.Material3.CardView.Filled"
+			>
+		<LinearLayout
+				android:layout_width = "match_parent"
+				android:gravity = "center"
+				android:orientation = "horizontal"
+				android:layout_height = "match_parent">
+			<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_weight = "28"
+					android:layout_height = "match_parent"
+					android:layout_marginVertical = "9dp"
+					android:gravity = "center_horizontal"
+					android:orientation = "vertical">
+				<TextView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "等待名單"
+						android:textSize = "22sp"
+						android:gravity = "center"
+						/>
+				<LinearLayout
+						android:layout_width = "match_parent"
+						android:layout_height = "wrap_content"
+						android:orientation = "horizontal"
+						android:gravity = "center_horizontal"
+						android:layout_marginVertical = "5dp"
+						android:layout_marginRight = "10dp">
+					<TextView
+							android:layout_width = "wrap_content"
+							android:layout_height = "wrap_content"
+							android:layout_marginHorizontal = "10dp"
+							android:textSize = "15sp"
+							android:text = "排序"/>
+					<TextView
+							android:layout_width = "wrap_content"
+							android:layout_height = "wrap_content"
+							android:layout_marginHorizontal = "10dp"
+							android:textSize = "15sp"
+							android:text = "姓名"/>
+					<TextView
+							android:layout_width = "wrap_content"
+							android:layout_height = "wrap_content"
+							android:textSize = "15sp"
+							android:layout_marginHorizontal = "10dp"
+							android:text = "身分證"/>
+				</LinearLayout>
+				<ImageView
+						android:layout_width = "match_parent"
+						android:layout_height = "wrap_content"
+						android:background = "@drawable/ic_horizontal_line"/>
+				<ListView
+						android:id = "@+id/rightlist"
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "1">
+				</ListView>
+			</LinearLayout>
+
+			<ImageView
+					android:layout_width = "0dp"
+					android:layout_weight = "0.2"
+					android:layout_height = "match_parent"
+					android:background = "@drawable/ic_vertical_line"
+					android:rotation = "0"
+					/>
+			<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_weight = "28"
+					android:layout_height = "match_parent"
+					android:layout_marginVertical = "9dp"
+					android:gravity = "center_horizontal"
+					android:orientation = "vertical">
+				<TextView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:text = "過號名單"
+						android:textSize = "22sp"
+						android:gravity = "center"
+						/>
+				<LinearLayout
+						android:layout_width = "match_parent"
+						android:layout_height = "wrap_content"
+						android:orientation = "horizontal"
+						android:gravity = "center_horizontal"
+						android:layout_marginVertical = "5dp"
+						android:layout_marginRight = "10dp">
+					<TextView
+							android:layout_width = "wrap_content"
+							android:layout_height = "wrap_content"
+							android:textSize = "15sp"
+							android:layout_marginHorizontal = "10dp"
+							android:text = "排序"/>
+					<TextView
+							android:layout_width = "wrap_content"
+							android:layout_height = "wrap_content"
+							android:textSize = "15sp"
+							android:layout_marginHorizontal = "10dp"
+							android:text = "姓名"/>
+					<TextView
+							android:layout_width = "wrap_content"
+							android:layout_height = "wrap_content"
+							android:textSize = "15sp"
+							android:layout_marginHorizontal = "10dp"
+							android:text = "身分證"/>
+				</LinearLayout>
+				<ImageView
+						android:layout_width = "match_parent"
+						android:layout_height = "wrap_content"
+						android:background = "@drawable/ic_horizontal_line"/>
+				<ListView
+						android:id = "@+id/leftlist"
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "1">
+				</ListView>
+			</LinearLayout>
+		</LinearLayout>
+	</com.google.android.material.card.MaterialCardView>
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_weight = "3.4"
+			android:layout_height = "0dp"
+			android:layout_marginTop = "5dp"
+			android:layout_marginHorizontal = "10dp"
+			android:orientation = "horizontal">
+		<com.google.android.material.button.MaterialButton
+				android:id = "@+id/checkinbtn"
+				android:layout_width = "0dp"
+				android:layout_weight = "2"
+				android:layout_height = "match_parent"
+				android:layout_marginHorizontal = "10dp"
+				android:text = "報到"
+				app:cornerRadius = "10dp"
+				android:textSize = "28sp"
+				android:backgroundTint = "#FF5449"
+				android:gravity = "center"
+				android:textStyle = "bold"
+				style = "@style/ThemeOverlay.Material3.Button"
+				/>
+	</LinearLayout>
+</LinearLayout>

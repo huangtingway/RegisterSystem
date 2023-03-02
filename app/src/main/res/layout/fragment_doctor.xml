@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+		xmlns:tools = "http://schemas.android.com/tools"
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		xmlns:app = "http://schemas.android.com/apk/res-auto"
+		tools:context = ".Doctor"
+		android:background = "#E8EEF1">
+	<RelativeLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "match_parent">
+		<ListView
+				android:id = "@+id/doctornamelist"
+				android:layout_width = "match_parent"
+				android:layout_height = "match_parent"
+				android:layout_above = "@+id/bottombtn"
+				/>
+		<LinearLayout
+				android:id = "@+id/bottombtn"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:orientation = "horizontal"
+				android:layout_alignParentBottom = "true"
+				android:layout_marginBottom="10dp"
+				android:gravity = "center_horizontal">
+			<com.google.android.material.button.MaterialButton
+					android:id = "@+id/addnewnumber"
+					android:layout_width = "0dp"
+					android:layout_weight = "1"
+					android:layout_height = "wrap_content"
+					android:layout_marginHorizontal = "20dp"
+					android:text = "新增掛號"
+					app:cornerRadius ="10dp"
+					android:textSize = "18sp"
+					android:gravity = "center"
+					style = "@style/ThemeOverlay.Material3.Button"
+					android:backgroundTint="#5885AF"
+					/>
+			<com.google.android.material.button.MaterialButton
+					android:id = "@+id/addnewdoctor"
+					android:layout_width = "0dp"
+					app:cornerRadius ="10dp"
+					android:layout_weight = "1"
+					android:layout_height = "wrap_content"
+					android:layout_marginHorizontal = "20dp"
+					android:text = "新增醫師"
+					android:textSize = "18sp"
+					android:gravity = "center"
+					style = "@style/ThemeOverlay.Material3.Button"
+					android:backgroundTint="#5885AF"
+					/>
+		</LinearLayout>
+	</RelativeLayout>
+</FrameLayout>

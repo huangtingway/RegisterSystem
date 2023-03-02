@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+		xmlns:tools = "http://schemas.android.com/tools"
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		android:gravity = "center"
+		android:orientation = "vertical"
+		>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:layout_marginVertical = "16dp"
+			android:layout_marginHorizontal = "20dp">
+
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text = "姓名:"
+				android:textSize = "17sp"
+				/>
+
+		<TextView
+				android:id = "@+id/patinet_name_inform"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "10dp"
+				/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:layout_marginVertical = "16dp"
+			android:layout_marginHorizontal = "20dp">
+
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text = "身分證:"
+				android:textSize = "17sp"
+				/>
+
+		<TextView
+				android:id = "@+id/patinet_ID_inform"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "10dp"
+				/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:layout_marginVertical = "16dp"
+			android:layout_marginHorizontal = "20dp">
+
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text = "科別:"
+				android:textSize = "17sp"
+				/>
+
+		<TextView
+				android:id = "@+id/patinet_category_inform"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "10dp"
+				/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:layout_marginVertical = "16dp"
+			android:layout_marginHorizontal = "20dp">
+
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text = "掛號日期:"
+				android:textSize = "17sp"
+				/>
+
+		<TextView
+				android:id = "@+id/patinet_watchdate_inform"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "10dp"
+				/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:layout_marginVertical = "16dp"
+			android:layout_marginHorizontal = "20dp">
+
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text = "出生日期:"
+				android:textSize = "17sp"
+				/>
+
+		<TextView
+				android:id = "@+id/patinet_birthday_inform"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "10dp"
+				/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:layout_marginVertical = "16dp"
+			android:layout_marginHorizontal = "20dp">
+
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text = "醫師:"
+				android:textSize = "17sp"
+				/>
+
+		<TextView
+				android:id = "@+id/patinet_doctor_inform"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "10dp"
+				/>
+
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:layout_marginVertical = "16dp"
+			android:layout_marginHorizontal = "20dp">
+
+		<TextView
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text = "性別:"
+				android:textSize = "17sp"
+				/>
+
+		<TextView
+				android:id = "@+id/patinet_sex_inform"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "10dp"
+				/>
+
+	</LinearLayout>
+
+</LinearLayout>

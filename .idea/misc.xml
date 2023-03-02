@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_add.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_backspace.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_calendar.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_clear.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_cursor.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_dcotor_room.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_doctor.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/drawable/ic_settings.xml" value="0.132" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/custom3rdcardlist.xml" value="0.278125" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/dialog_bottom.xml" value="0.278125" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/dialog_confirm.xml" value="0.278125" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/dialog_patient_inform.xml" value="0.27708333333333335" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/doctornamelist.xml" value="0.27708333333333335" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/edit_doc_room_dialog.xml" value="0.25" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/edit_doctor_dialog.xml" value="0.27708333333333335" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/edit_patient_dialog.xml" value="0.25" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/fragment_choose_room.xml" value="0.25" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/fragment_doctor.xml" value="0.2630208333333333" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/fragment_host.xml" value="0.33" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/fragment_manage.xml" value="0.3820803295571576" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/fragment_manage_room.xml" value="0.25" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/fragment_patient_list.xml" value="0.278125" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/fragment_setting.xml" value="0.278125" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/fragment_start.xml" value="0.25" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/fragmentcustom.xml" value="0.335" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/patientlist_listview.xml" value="0.27708333333333335" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/layout/roomlistitem.xml" value="0.278125" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/menu/choose_room_menu.xml" value="0.29270833333333335" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/menu/docbottom.xml" value="0.29270833333333335" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/menu/doctornamelist.xml" value="0.29270833333333335" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/menu/main_top_menu.xml" value="0.2916666666666667" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/menu/manage_room_menu.xml" value="0.29270833333333335" />
+        <entry key="..\:/program/Apps/RegisterSystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.216" />
+        <entry key="..\:/program/Apps/mediapipe-master/mediapipe/examples/android/solutions/RegisterSystem/app/src/main/res/layout/activity_main.xml" value="0.2537037037037037" />
+        <entry key="..\:/program/Apps/mediapipe-master/mediapipe/examples/android/solutions/RegisterSystem/app/src/main/res/layout/fragment_manage.xml" value="0.278125" />
+        <entry key="..\:/program/Apps/mediapipe-master/mediapipe/examples/android/solutions/RegisterSystem/app/src/main/res/layout/fragment_start.xml" value="0.278125" />
+        <entry key="..\:/program/Apps/mediapipe-master/mediapipe/examples/android/solutions/RegisterSystem/app/src/main/res/layout/fragmentcustom.xml" value="0.278125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

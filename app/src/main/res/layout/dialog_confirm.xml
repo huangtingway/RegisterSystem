@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+		xmlns:tools = "http://schemas.android.com/tools"
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		xmlns:app = "http://schemas.android.com/apk/res-auto"
+		android:orientation = "vertical"
+		android:gravity = "center"
+		>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:layout_marginHorizontal = "20dp">
+
+		<TextView
+				android:id = "@+id/dialog_confirm_title"
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text = "身分證號:"
+				android:textSize = "17sp"
+				/>
+
+		<com.google.android.material.textfield.TextInputEditText
+				android:id = "@+id/dialog_confirm_enteryourid"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:maxLines="1"
+				android:maxLength="10"
+				android:clickable="false"
+				android:enabled="false"
+				android:textColor="#000"
+				android:layout_marginHorizontal = "10dp"
+				/>
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "vertical"
+			android:layout_marginVertical = "20dp">
+
+		<LinearLayout
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:orientation = "horizontal"
+				android:layout_marginVertical = "15dp"
+				android:gravity = "center_horizontal">
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/btn7"
+					android:layout_width = "wrap_content"
+					android:layout_height = "wrap_content"
+					android:layout_marginHorizontal = "15dp"
+					android:textSize = "30sp"
+					android:text = "7"
+					android:backgroundTint="#5885AF"/>
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/btn8"
+					android:layout_width = "wrap_content"
+					android:layout_height = "wrap_content"
+					android:layout_marginHorizontal = "15dp"
+					android:textSize = "30sp"
+					android:text = "8"
+					android:backgroundTint="#5885AF"/>
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/btn9"
+					android:layout_width = "wrap_content"
+					android:layout_height = "wrap_content"
+					android:layout_marginHorizontal = "15dp"
+					android:textSize = "30sp"
+					android:text = "9"
+					android:backgroundTint="#5885AF"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:orientation = "horizontal"
+				android:gravity = "center_horizontal">
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/btn4"
+					android:layout_width = "wrap_content"
+					android:layout_height = "wrap_content"
+					android:layout_marginHorizontal = "15dp"
+					android:textSize = "30sp"
+					android:text = "4"
+					android:backgroundTint="#5885AF"/>
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/btn5"
+					android:layout_width = "wrap_content"
+					android:layout_height = "wrap_content"
+					android:layout_marginHorizontal = "15dp"
+					android:textSize = "30sp"
+					android:text = "5"
+					android:backgroundTint="#5885AF"/>
+
+			<com.google.android.material.button.MaterialButton
+					android:id="@+id/btn6"
+					android:layout_width = "wrap_content"
+					android:layout_height = "wrap_content"
+					android:layout_marginHorizontal = "15dp"
+					android:textSize = "30sp"
+					android:text = "6"
+					android:backgroundTint="#5885AF"/>
+
+		</LinearLayout>
+
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:gravity = "center_horizontal">
+
+		<com.google.android.material.button.MaterialButton
+				android:id="@+id/btn1"
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "15dp"
+				android:textSize = "30sp"
+				android:text = "1"
+				android:backgroundTint="#5885AF"/>
+
+		<com.google.android.material.button.MaterialButton
+				android:id="@+id/btn2"
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "15dp"
+				android:textSize = "30sp"
+				android:text = "2"
+				android:backgroundTint="#5885AF"/>
+
+		<com.google.android.material.button.MaterialButton
+				android:id="@+id/btn3"
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal = "15dp"
+				android:textSize = "30sp"
+				android:text = "3"
+				android:backgroundTint="#5885AF"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:layout_marginVertical = "16dp"
+			android:gravity = "center_horizontal"
+			android:layout_marginLeft="3dp">
+
+		<com.google.android.material.button.MaterialButton
+				android:id="@+id/btnbcak"
+				android:layout_width = "wrap_content"
+				android:layout_height = "match_parent"
+				android:layout_marginHorizontal="15dp"
+				app:icon = "@drawable/ic_backspace"
+				app:iconSize = "30dp"
+				android:backgroundTint="#5885AF"
+				/>
+
+		<com.google.android.material.button.MaterialButton
+				android:id="@+id/btn0"
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:layout_marginHorizontal="12dp"
+				android:textSize = "30sp"
+				android:text = "0"
+				android:backgroundTint="#5885AF"/>
+
+		<com.google.android.material.button.MaterialButton
+				android:id="@+id/btnclear"
+				android:layout_width = "wrap_content"
+				android:layout_height = "match_parent"
+				android:paddingHorizontal="15dp"
+				android:layout_marginHorizontal="11dp"
+				android:gravity="center"
+				android:textSize = "25sp"
+				android:text = "清除"
+				android:backgroundTint="#5885AF"/>
+
+	</LinearLayout>
+
+
+</LinearLayout>

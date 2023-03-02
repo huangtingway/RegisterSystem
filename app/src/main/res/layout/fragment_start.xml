@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+		xmlns:tools = "http://schemas.android.com/tools"
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		tools:context = ".StartFrag"
+		android:orientation = "vertical"
+		android:gravity = "center"
+		android:background = "#E8EEF1">
+	<Button
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = "客戶端"
+			android:gravity = "center"
+			android:layout_marginHorizontal = "80dp"
+			android:id = "@+id/guestbtn"
+			android:backgroundTint="#5885AF"
+			/>
+	<Button
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = "管理端"
+			android:gravity = "center"
+			android:layout_marginTop = "20dp"
+			android:layout_marginHorizontal = "80dp"
+			android:id = "@+id/ownerbtn"
+			android:backgroundTint="#5885AF"
+			/>
+	<ImageView
+			android:layout_width = "wrap_content"
+			android:layout_height = "wrap_content"
+			android:layout_marginTop="100dp"
+			android:background="@drawable/ic_app_icon"/>
+	<TextView
+			android:layout_width = "wrap_content"
+			android:layout_height = "wrap_content"
+			android:layout_marginTop="10dp"
+			android:text="無接觸自助掛號系統"
+			android:textSize="23sp"/>
+</LinearLayout>

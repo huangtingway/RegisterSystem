@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android = "http://schemas.android.com/apk/res/android">
+	<item
+			android:id = "@+id/room"
+			android:title = "診間"
+			android:icon="@drawable/ic_dcotor_room"
+			/>
+	<item
+			android:id = "@+id/doctor"
+			android:title = "醫生"
+			android:icon="@drawable/ic_doctor"
+			/>
+</menu>

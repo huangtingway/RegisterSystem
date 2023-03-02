@@ -1,0 +1,18 @@
+<resources>
+	<string name = "app_name">RegisterSystem</string>
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name = "hello_blank_fragment">Hello blank fragment</string>
+
+	<string-array name = "subjectList">
+		<item>不分科</item>
+		<item>骨科</item>
+		<item>小兒科</item>
+		<item>內科</item>
+		<item>外科</item>
+		<item>耳鼻喉科</item>
+		<item>皮膚科</item>
+		<item>婦產科</item>
+		<item>泌尿科</item>
+		<item>眼科</item>
+	</string-array>
+</resources>

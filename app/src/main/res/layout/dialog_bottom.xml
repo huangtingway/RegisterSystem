@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+		xmlns:app = "http://schemas.android.com/apk/res-auto"
+		xmlns:tools = "http://schemas.android.com/tools"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:gravity = "left"
+		android:orientation = "vertical"
+		android:background = "#C3E7FF"
+		>
+
+	<com.google.android.material.button.MaterialButton
+			android:id = "@+id/editdoctorbtn"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:layout_marginTop="5dp"
+			android:text = "編輯醫師"
+			android:textSize = "17sp"
+			android:gravity = "left"
+			style = "@style/Widget.Material3.Button.TextButton.Icon"
+			app:icon = "@drawable/ic_doctor"
+			app:iconPadding = "15dp"
+			android:textColor = "#000"
+			android:textColorHint = "#000000"/>
+
+
+	<com.google.android.material.button.MaterialButton
+			android:id = "@+id/editnumberbtn"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = "編輯掛號"
+			android:gravity = "left"
+			android:textSize = "17sp"
+			app:iconPadding = "15dp"
+			style = "@style/Widget.Material3.Button.TextButton.Icon"
+			android:textColor = "#000"
+			app:icon = "@drawable/ic_personal_injury"
+			android:textColorHint = "#000000"/>
+
+</LinearLayout>
