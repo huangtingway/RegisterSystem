@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         cursor = new ImageView(this);
         cursor.setImageResource(R.drawable.ic_cursor);
 
+
         ViewTreeObserver viewTreeObserver = mainGroup.getViewTreeObserver(); //get full screen XY
         viewTreeObserver.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
@@ -199,6 +200,7 @@ public class MainActivity extends AppCompatActivity {
         } else if(isMoving){
             isMoving = false;
             Log.v("handmov:", "not move");
+
         }
 
         if(different <= -1.5){//判斷手指是否正在移動
