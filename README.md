@@ -3,7 +3,8 @@ This is a android demo app to simulate client register system. People can use fl
 
 # Floating touch
 We use Mediapipe hands to detect hands via smartphone front camera.  
-Mediapipe source code: https://github.com/google/mediapipe/tree/master/mediapipe/examples/android/solutions/hands/src/main/java/com/google/mediapipe/examples/hands 
+[Mediapipe source code](https://github.com/google/mediapipe/tree/master/mediapipe/examples/android/solutions/hands/src/main/java/com/google/mediapipe/examples/hands)  
+> note: The Mediapipe hand model used in this application is an older version
 
 ## App page  
 <td>
