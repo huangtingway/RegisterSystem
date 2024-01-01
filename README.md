@@ -12,4 +12,11 @@ We use Mediapipe hands to detect hands via smartphone front camera.
   <img src="https://github.com/huangtingway/RegisterSystem/assets/92153423/96bc9347-9d0b-4875-8d4c-32b11891c5fb" width="24%">
   <img src="https://github.com/huangtingway/RegisterSystem/assets/92153423/9ae612cd-e1a9-490d-897a-073f69d534d4" width="24%">
   <img src="https://github.com/huangtingway/RegisterSystem/assets/92153423/ddf06a66-8bfe-4f87-9a36-a92ce6ebcfe3" width="24%">
-</td>
+</td>  
+
+## Demo viedo  
+
+
+
+https://github.com/huangtingway/RegisterSystem/assets/92153423/9a508fc1-59c2-4295-9c53-2a396abe69db
+
